@@ -30,8 +30,9 @@ public:
     // Print out the distance
     Serial.print("Distance = ");
     Serial.println(distance);
+  }
 
-    // Return distance
+  float returnData() {
     return distance;
   }
 };
@@ -52,7 +53,9 @@ public:
   void getValue() {
     // Get the value from the ir pin
     value = digitalRead(irPin);
+  }
 
+  int returnValue() {
     // Return value
     return value;
   }
