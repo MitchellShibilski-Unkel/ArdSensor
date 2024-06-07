@@ -8,7 +8,7 @@ Both the ultrasonic and IR classes are very similar in the setup process and how
      example Ultrasonic();
 
      void setup() {
-       example.begin();
+       example.begin(9, 8);
      }
 
   
